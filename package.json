@@ -1,0 +1,42 @@
+{
+  "name": "Koa-NodeJS-Template",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "node bin/www",
+    "dev": "./node_modules/.bin/nodemon bin/www",
+    "prd": "pm2 start bin/www",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "migrate": "node node_modules/db-migrate/bin/db-migrate up -env ${NODE_ENV} --config database.json",
+    "migrate-down": "node node_modules/db-migrate/bin/db-migrate down -env ${NODE_ENV} --config database.json -c 1",
+    "apidoc": "node_modules/.bin/apidoc -i ./routes -o ./public/documentation"
+  },
+  "dependencies": {
+    "apidoc": "0.17.6",
+    "config": "1.30.0",
+    "db-migrate": "0.10.7",
+    "db-migrate-mysql": "1.1.10",
+    "joi": "13.1.2",
+    "knex": "0.14.4",
+    "koa": "2.5.0",
+    "koa-bodyparser": "4.2.0",
+    "koa-json": "2.0.2",
+    "koa-json-error": "3.1.2",
+    "koa-logger": "3.2.0",
+    "koa-router": "7.4.0",
+    "koa-static": "4.0.2",
+    "lodash": "4.17.5",
+    "moment": "2.22.0",
+    "mysql": "2.15.0",
+    "randomstring": "1.1.5"
+  },
+  "devDependencies": {
+    "nodemon": "1.17.3"
+  },
+  "apidoc": {
+    "description": "Back-end APIs of Koa-NodeJS-Template",
+    "title": "Koa-NodeJS-Template",
+    "url": "http://localhost:3000/v1",
+    "sampleUrl": "http://localhost:3000/v1"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "defaultEnv":"localhost",
+  "localhost": {
+    "driver":"mysql",
+    "host":"localhost",
+    "user":"root",
+    "password":"",
+    "database":"TrackItems",
+    "multipleStatements":true
+  }
+}
