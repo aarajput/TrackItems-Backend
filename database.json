@@ -1,5 +1,5 @@
 {
-  "defaultEnv":"localhost",
+  "defaultEnv":"production",
   "localhost": {
     "driver":"mysql",
     "host":"localhost",
