@@ -15,7 +15,7 @@ exports.up = db => {
       id:{type:'bigint', primaryKey:true, autoIncrement:true,notNull:true},
       name:{type:'varchar',length:100,notNull:true},
       description:{type:'varchar',length:500,notNull:true},
-      imageName:{type:'varchar',length:200,notNull:true},
+      imagePath:{type:'varchar',length:200,notNull:true},
       location:{type:'varchar',length:200,notNull:true},
       cost:{type:'varchar',length:200,notNull:true},
       updated_on:{type:'datetime',defaultValue:'CURRENT_TIMESTAMP',notNull:true,onUpdate:true},

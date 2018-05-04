@@ -5,13 +5,7 @@ const moment = require('moment');
 const ItemModel = require('./../models/item_model');
 
 exports.postItem = async (ctx,next)=> {
-    const input = _.clone(ctx.request.body.fields);
-
-    const file = ctx.request.body.files.image;
-    const nestedDirName = `${randomString.generate(10)}_${moment().unix()}`;
-    await fs.move(file.path,path.join(_dirRoot,'public','item_images',nestedDirName,file.name));
-
-    input.imageName=nestedDirName+'/'+file.name;
+    const input = _.clone(ctx.request.body);
 
     const res = await new ItemModel().save(input);
 
@@ -21,6 +15,6 @@ exports.postItem = async (ctx,next)=> {
 };
 
 exports.getItems = async (ctx,next) => {
-    ctx.state.data = await new ItemModel().getWithImage();
+    ctx.state.data = await new ItemModel().get();
     await next();
 };
