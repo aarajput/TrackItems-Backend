@@ -2,21 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="40c2f2ea-3ceb-476c-8533-5f7b830901a7" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/controllers/items.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/models/item_model.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/controllers/users.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/middlewares/authorization.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/models/user_model.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/validators/users.js" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/default.json" afterPath="$PROJECT_DIR$/config/default.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/production.json" afterPath="$PROJECT_DIR$/config/production.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/models/model.js" afterPath="$PROJECT_DIR$/libs/models/model.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package-lock.json" afterPath="$PROJECT_DIR$/package-lock.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/index.js" afterPath="$PROJECT_DIR$/routes/index.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -40,11 +27,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="item_model.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="item_model.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/libs/models/item_model.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="38" lean-forward="false" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
+            <state relative-caret-position="289">
+              <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -60,11 +47,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="production.json" pinned="false" current-in-tab="false">
+      <file leaf-file-name="production.json" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/config/production.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="46" lean-forward="false" selection-start-line="7" selection-start-column="46" selection-end-line="7" selection-end-column="46" />
+            <state relative-caret-position="136">
+              <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -137,9 +124,9 @@
         <option value="$PROJECT_DIR$/routes/index.js" />
         <option value="$PROJECT_DIR$/libs/models/model.js" />
         <option value="$PROJECT_DIR$/config/default.json" />
-        <option value="$PROJECT_DIR$/config/production.json" />
         <option value="$PROJECT_DIR$/libs/controllers/items.js" />
         <option value="$PROJECT_DIR$/libs/models/item_model.js" />
+        <option value="$PROJECT_DIR$/config/production.json" />
       </list>
     </option>
   </component>
@@ -352,12 +339,20 @@
       <option name="presentableId" value="Default" />
       <updated>1525369499461</updated>
       <workItem from="1525369500810" duration="1447000" />
-      <workItem from="1525396661383" duration="3476000" />
+      <workItem from="1525396661383" duration="5083000" />
     </task>
+    <task id="LOCAL-00001" summary="webservices complete">
+      <created>1525400166726</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1525400166726</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4923000" />
+    <option name="totallyTimeSpent" value="6530000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -406,6 +401,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="webservices complete" />
+    <option name="LAST_COMMIT_MESSAGE" value="webservices complete" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -531,14 +530,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/production.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="46" lean-forward="false" selection-start-line="7" selection-start-column="46" selection-end-line="7" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/default.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -557,8 +548,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/libs/models/item_model.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="38" lean-forward="false" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
+        <state relative-caret-position="289">
+          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/production.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
           <folding />
         </state>
       </provider>

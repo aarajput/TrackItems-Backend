@@ -2,7 +2,7 @@
   "mysql":{
     "host":"localhost",
     "user":"trackitems",
-    "password":"",
+    "password":"TrackItems@30",
     "database":"TrackItems"
   },
   "domainName":"http://trackitems.wisecrab.com/"
